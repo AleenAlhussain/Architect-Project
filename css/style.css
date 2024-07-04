@@ -57,11 +57,15 @@ button {
 .header .container {
     width: 90%;
 }
-.parent-header,.dropdown-menu,.btn1,.btn-header:hover,.content .btn2:hover,.team-social a:hover {
+.parent-header,.dropdown-menu,.btn1,.btn-header:hover,.team-social a:hover {
     background-color: #e8e8e8;
 }
 .line,.btn2,.btn-header,.nav-link::before,.content .btn1:hover,.first-content .line,.about-content .line,.price-box::after,.team-social a,.social,.indecator ul li {
     background-color: #15b9d9;
+}
+.btn2:hover{
+    background-color: #e8e8e8 !important;
+    color: #15b9d9 !important;
 }
 .parent-header {
     position: fixed;
@@ -389,6 +393,7 @@ button {
 /* Start Count Section */
 .count-section {
     height: 350px;
+    margin-top: 100px;
     background-image: url(../images/about/23.jpg);
     background-position: center;
 }
