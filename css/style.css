@@ -453,10 +453,11 @@ button {
 /* Start Fourth Section */
 .fourth-section {
     height: 400px;
+    margin-top: 150px;
     background-image: url(../images/about/9.jpg);
 }
 .fourth-parent {
-    margin-top: 150px;
+    margin-top: 100px;
     overflow: auto;
 }
 .fourth-img {
