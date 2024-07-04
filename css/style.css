@@ -57,7 +57,7 @@ button {
 .header .container {
     width: 90%;
 }
-.parent-header,.dropdown-menu,.btn1,.btn-header:hover,.content .btn2:hover,.team-social a:hover {
+.parent-header,.dropdown-menu,.btn1,.btn-header:hover,.team-social a:hover {
     background-color: #e8e8e8;
 }
 .line,.btn2,.btn-header,.nav-link::before,.content .btn1:hover,.first-content .line,.about-content .line,.price-box::after,.team-social a,.social,.indecator ul li {
@@ -154,7 +154,7 @@ button {
     padding: 10px 15px;
     border-radius: 50px;
 }
-.btn-header:hover,.content .btn2:hover,.first-box i,.first-box .test,.btn1,.icon-news,.news-btn,.second-btn,.third-box i,.about-list li i,.count-icon,.price-box:hover .center,.price-box:hover .price-color h5,.price-icon,.team-info h4,.team-social a:hover,.social:hover,.footer-list li:hover,.team-parent:hover .team-info h5 {
+.btn-header:hover,.first-box i,.first-box .test,.btn1,.icon-news,.news-btn,.second-btn,.third-box i,.about-list li i,.count-icon,.price-box:hover .center,.price-box:hover .price-color h5,.price-icon,.team-info h4,.team-social a:hover,.social:hover,.footer-list li:hover,.team-parent:hover .team-info h5 {
     color: #15b9d9;
 }
 .content .btn1:hover,
@@ -200,6 +200,10 @@ button {
 .nav-link:hover::before {
     width: calc(92%);
     left: 1px;
+}
+.btn2:hover{
+    background-color: #e8e8e8 !important;
+    color: #15b9d9 !important;
 }
 /* End Header */
 /* ///////////////////////////////////////////// */
